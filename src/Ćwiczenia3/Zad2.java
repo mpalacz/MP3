@@ -18,7 +18,7 @@ public class Zad2 {
         weightPalacz = Float.parseFloat(br.readLine());
 
         bmi = (float) (weightPalacz / Math.pow(heightPalacz, 2));
-        System.out.printf("BMI wynosi: %2.2 \n", bmi);
+        System.out.printf("BMI wynosi: %2.2f \n", bmi);
 
         if (bmi < 16f)
             System.out.println("Wygłodzenie");
