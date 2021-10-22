@@ -1,7 +1,5 @@
 package Ćwiczenia3;
 
-import java.util.Random;
-
 public class Zad5 {
     public static void main(String[] args) {
         int minPalacz = 200;
